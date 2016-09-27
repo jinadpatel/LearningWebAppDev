@@ -100,12 +100,22 @@ main {
   border-radius: 5px;
 }
 
-.comments p.user1 {
+.comments p.user1:nth-child(even) {
     background: lightblue;
+    color: black;
 }
 
-.comments p.user2 {
-    background: cyan;
+.comments p.user1:nth-child(odd) {
+    background: lightpink;
+    color: black;
+}
+.comments p.user2:nth-child(even) {
+    background: goldenrod;
+    color: white;
+}
+.comments p.user2:nth-child(odd) {
+    background: olive;
+    color: white;
 }
 
 footer {
